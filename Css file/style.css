@@ -1,0 +1,17 @@
+h2
+{
+    font-family: monospace;
+    text-align: center;
+}
+.para1
+{
+    font-weight: 400;
+}
+.para2
+{
+    font-size: larger;
+}
+.para3
+{
+    font-style: italic;
+}

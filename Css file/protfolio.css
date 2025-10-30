@@ -1,0 +1,21 @@
+#nav
+{
+    background-color: rgb(132, 162, 245);
+    font-weight: bold;
+}
+#box
+{
+    background-color:blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#aside
+{
+    background-color:beige;
+}
+#About,#Skills,#Projects,#Education,#Contact
+{
+    background-color: seagreen;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+}
+

@@ -1,0 +1,19 @@
+h1{
+    color: rgb(245, 179, 24);
+    text-align: center;
+}
+th{
+    background-color: rgb(95, 7, 98);
+    color: azure;
+    height: 70px;
+
+}
+table{
+    width: 700px;
+    font-family: Arial;
+    margin-left: 425px;
+}
+td{
+    text-align: center;
+    height: 60px;
+}
