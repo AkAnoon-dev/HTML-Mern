@@ -1,0 +1,48 @@
+body{
+    background-image: url(confidentman.png);
+    background-position:top right;
+    background-size: 350px 350px;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+.para1{
+    font-size: 30px;
+    font-family:cursive;
+    padding-left: 50px;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#About,#Education,#Skills,#Projects,#Contact{
+    font-family:monospace;
+    font-size: 35px;
+    color: purple;
+    background-color: rgb(227, 233, 114);
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+.box{
+    background-color: rgb(14, 115, 125);
+    padding: 20px;
+}
+#aside{
+    background-color: rgb(14, 115, 126);
+    padding: 20px;
+
+}
+#copy{
+    color: black;
+}
+.c{
+    color: rgb(15, 15, 188);
+}

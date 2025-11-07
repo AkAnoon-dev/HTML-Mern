@@ -1,0 +1,17 @@
+
+.back{
+    background-color:rgb(121, 121, 244) ;
+    /* background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 250px;
+    color: rgb(67, 4, 126); */
+}
+body{
+    /* background-color: rgb(211, 153, 82);  */
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position:r;
+    background-size: auto;
+}

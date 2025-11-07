@@ -1,0 +1,25 @@
+#absolute{
+    /* max-width:1500px;
+    min-height:300px;
+    background-color: rgb(40, 18, 243);
+    overflow: visible; */
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    position: static;
+    top: 0px;
+    left: 0px;
+}
+#relative{
+     background-color: rgb(229, 233, 17);
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+#container{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+}
