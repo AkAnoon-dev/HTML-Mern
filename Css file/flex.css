@@ -1,0 +1,21 @@
+.container{
+    background-color: bisque;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    justify-content:start;
+    align-items:end;
+    gap: 10px;
+    flex-direction: row;
+}
+
+
+.box{
+    background-color: cornflowerblue;
+    border: 3px dotted black;
+    padding: 30px;
+    margin-top: 5px;
+    border-radius: 8px;
+    width: 100px;
+}
