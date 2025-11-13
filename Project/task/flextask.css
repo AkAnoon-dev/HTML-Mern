@@ -4,7 +4,7 @@
     flex-direction:row;
     justify-content: space-evenly;
     align-items:center;
-    height: 300px;
+    height: 355px;
 
 }
 .container2{
@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 300px;
+    height: 355px;
 
 }
 .para1{
@@ -32,23 +32,23 @@
 
 img{
     width: 200px;
-    height: 150px;
+    height: 200px;
     border-radius: 50%;
     padding: 15px;
     display: block;
-    margin: auto;
-    
-    
+    margin: auto;    
 }
-.box1,.box3,.box5{
-    background-color: rgb(239, 213, 22);
+
+.box1,.box6{
+    background-color: rgb(220, 218, 218);
     border-radius: 15px;
     width: 500px;
-    height: 300px;
+    height: 350px;
 }
-.box2,.box4,.box6{
-    background-color: #4b8df0;
+
+.box2,.box4,.box3,.box5{
+    background-color: #ffffff;
     border-radius: 15px;
     width: 500px;
-    height: 300px;
+    height: 350px;
 }
