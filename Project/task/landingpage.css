@@ -74,16 +74,18 @@ p{
 #img5{
     margin-left: 1100px;
     position: absolute;
-    width: 150px;
-    height: 230px;
+    width: 170px;
+    height: 195px;
     border-radius: 70px;
-    margin-top: -70px;
+    margin-top: -91px;
+    padding-top: 90px;
 }
 #img6{
     margin-left: 1300px;
     position: absolute;
-    width: 150px;
-    height: 230px;
+    width: 170px;
+    height: 195px;
     border-radius: 70px;
-    margin-top: -70px;
+    margin-top: -91px;
+    padding-top: 90px;
 }
