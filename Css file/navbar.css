@@ -1,0 +1,37 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(4, 4, 87);
+}
+#logo{
+    width: 60px;
+    height: 60px;
+}
+.nav-link{
+    display: flex;
+    gap: 30px;
+
+}
+.nav-link li{
+    list-style: none;
+
+}
+.nav-link a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn{
+    padding: 10px 15px;
+    color: rgb(2, 88, 2);
+    font-weight: bolder;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    margin-right: 3px;
+    cursor:pointer;
+
+
+}

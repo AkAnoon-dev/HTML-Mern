@@ -6,26 +6,26 @@
     width: 200px;
 }
 .item{
-    width: 250px;
+    /* width: 250px; */
     background-color: aquamarine;
     /* padding:20px; */
 }
 .item1{
-    flex-grow:1;
+    flex-grow:0;
 }
 .item2{
-    flex-grow:1;
+    flex-grow:0;
 }
 .item3{
     flex-grow:3;
 }
 .item1{
-    flex-shrink:0;
+    flex-shrink:1;
 }
 .item2{
-    flex-shrink:0;
+    flex-shrink:1;
 }
 .item3{
-    flex-shrink:0;
+    flex-shrink:1;
 }
 
