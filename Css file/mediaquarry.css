@@ -1,0 +1,43 @@
+.navbar{
+ 
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: black;
+    gap: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Tablet */
+
+@media (min-width:600px){
+
+.navbar{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(18, 109, 188);
+    font-size: 20px;
+    font-weight: bolder;
+}
+a{
+    color: black;
+}
+}
+
+/* Desktop */
+
+@media (min-width:900px){
+
+.navbar{
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+}

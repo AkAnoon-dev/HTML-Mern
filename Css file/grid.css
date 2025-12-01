@@ -1,0 +1,35 @@
+.container{
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+
+ 
+
+
+}
+
+.item{
+
+    background-color: aquamarine;
+    border:1px solid black;
+    display: flex;
+    justify-content: start;
+}
+
+.container2{
+
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows:(100px,100px);
+    gap:10PX;
+
+}
+.item{
+
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}

@@ -1,0 +1,21 @@
+.box{
+
+  background-color: rgb(65, 182, 232);
+  border: 2px solid blue;
+  margin: auto;
+
+  /* width */
+  min-width: 200px;
+  max-width: 250px;
+
+  /* height */
+  min-height: 200px;
+  max-height: 100px;
+
+  overflow-y: auto;
+  overflow-x: auto;
+
+}
+p{
+    padding: 15px;
+}
