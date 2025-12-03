@@ -1,0 +1,40 @@
+body{
+    background-color: aquamarine;
+    
+}
+.container{
+    height: 800px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px ;
+
+    /* animation: move;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite; */
+    transition: 1s ease-in-out;
+}
+@keyframes move
+{
+    0%{
+        width: 200px;
+        /* background-color: black; */
+    }
+    50%{
+        width: 200px;
+        /* background-color: blue; */
+    }
+    100%{
+        width: 200px;
+    }
+}
+.box1:hover{
+    /* animation-play-state: paused; */
+    background-color: brown;
+    transform: translateY(300px)
+}
