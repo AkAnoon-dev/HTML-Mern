@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    width: 25%;
+    height: 80vh;
+    background-color: rgb(9, 9, 70);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 110px;
+    align-items: end;
+    gap: 5px;
+    justify-content: start;
+}
+.container > div{
+    width: 25px;
+    height: 25px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.box-1,.box-2,.box-3{
+    animation: move 0.6s ease-in-out 0.19s infinite;
+    margin-bottom: 30px;
+
+}
+.box-2{
+    animation-delay: 0.29s;
+}
+.box-3{
+    animation-delay: 0.39s;
+}
+
+@keyframes move{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}

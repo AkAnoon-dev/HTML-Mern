@@ -1,40 +1,128 @@
-body{
-    background-color: aquamarine;
-    
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 .container{
-    height: 800px;
-}
-.box1{
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    margin: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px ;
+      
+    background-color: bisque;
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
 
-    /* animation: move;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: infinite; */
-    transition: 1s ease-in-out;
 }
-@keyframes move
+
+.box1{
+
+    width: 300px;
+    height: 70px;
+    background-color: crimson;
+    border: 3px solid black;
+    margin: 10px;
+    position: relative;
+
+    animation: 5s linear 0s infinite alternate move1;
+
+}
+@keyframes move1{
+      0%{
+        top: 0%;
+        left: 0%;
+
+      }
+      25%{
+        top: 0%;
+        left: 78%;
+      }
+      50%{
+        top: 0%;
+        left:50%;
+      }
+      75%{
+        top: 0%;
+        left: 20%;
+      }
+      100%{
+        top: 0%;
+        left: 50%;
+      }
+}
+
+.box2{
+
+    width: 300px;
+    height: 70px;
+    background-color: crimson;
+    border: 3px solid black;
+    margin: 10px;
+    position: relative;
+
+    animation: 5s linear 0s infinite alternate mov2;
+
+}
+@keyframes mov2
+
+
 {
-    0%{
-        width: 200px;
-        /* background-color: black; */
-    }
-    50%{
-        width: 200px;
-        /* background-color: blue; */
-    }
-    100%{
-        width: 200px;
-    }
+
+          0%{
+        top: 68%;
+        left: 5%;
+
+      }
+      25%{
+        top: 68%;
+        left: 45%;
+      }
+      50%{
+        top: 68%;
+        left:69%;
+      }
+      75%{
+        top: 68%;
+        left: 20%;
+      }
+      100%{
+        top: 68%;
+        left: 5%;
+      }
 }
-.box1:hover{
-    /* animation-play-state: paused; */
-    background-color: brown;
-    transform: translateY(300px)
+
+
+.circle{
+
+   position: relative;
+   background-color: blue;
+   width: 50px;
+   height: 50px;
+   border: 2px solid black;
+   border-radius: 50px;
+   top: 68%;
+   left: 10%;
+
+   animation: 7s linear 0s 2 alternate dot;
+
+}
+@keyframes dot{
+
+    0%{
+        top: 65%;
+        left: 10%;
+    }
+   25%{
+         top: 0%;
+         left: 65%;
+   }
+   50%{
+         top: 65%;
+         left: 65%;
+        }
+        75%{
+            top: 0%;
+    left: 20%;
+   }
+   100%{
+      top: 65%;
+      left: 10%;
+   }
 }
