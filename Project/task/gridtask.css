@@ -1,69 +1,98 @@
-body {
-    font-family: Arial;
-    background: #0a0f2e;
-    color: white;
-    padding: 20px;
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(2, 9, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    gap: 20px;
-}
-
-.left {
-    background: #4a6bff;
-    padding: 20px;
-    border-radius: 12px;
-    height: 230px;
-}
-
-.profile {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: repeat(2, auto);    
-    gap: 20px;
-}
-
-.card {
-    background: #0d1240;
+.b1{
+margin-top: -50px;
+    height: 250px;
+    margin-right: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
     border-radius: 10px;
-    overflow: hidden;
-}
+    background-color: rgb(45, 113, 239);
+    position: relative;
 
-.color-box {
-    height: 60px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
 }
-
-.work .color-box { background: orange; }
-.play .color-box { background: skyblue; }
-.study .color-box { background: red; }
-.exercise .color-box { background: green; }
-.social .color-box { background: purple; }
-.selfcare .color-box { background: yellow; }
-
-.info {
-    padding: 15px;
-}
-
-.hours {
-    font-size: 24px;
-    margin: 5px 0;
-}
-.menu{
-    background: #0d1240;
-    border-radius: 10px;
-    width: 250px;
+.b2{
+    margin-top: -8px;
     height: 200px;
-    margin-left: -20px;
-    margin-top: 50px;
+    margin-right: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+.rightside{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 150px 150px;
+    gap: 10px;
+    row-gap: 100px;
+    margin: 20px;
+}
+.box{
+    background-color: rgb(3, 10, 107);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+
+}
+p{
+    font-size: large;
+    color: white;
+}
+.name{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+.daily{
+    color: gray;
+}
+
+ /* color shadow */
+.b6{
+    box-shadow: 0px -40px rgb(13, 215, 50);
+    border-radius: 10px;
+}
+.b3{
+    box-shadow: 0px -40px rgb(216, 123, 8);
+    border-radius: 10px;
+}
+.b4{
+    box-shadow: 0px -40px rgb(8, 150, 216);
+    border-radius: 10px;
+}
+.b5{
+    box-shadow: 0px -40px rgb(198, 35, 3);
+    border-radius: 10px;
+}
+.b7{
+    box-shadow: 0px -40px rgb(115, 6, 132);
+    border-radius: 10px;
+}
+.b8{
+    box-shadow: 0px -40px rgb(235, 228, 9);
+    border-radius: 10px;
+}
+#img1{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
 }
